@@ -5,7 +5,7 @@ The chart is used to identify minerals in petrographic thin sections. It correla
 
 This code is based on:
 ~~~
-"A revised Michel-Lévy interference colour chart based on first-principles calculations"¶
+"A revised Michel-Lévy interference colour chart based on first-principles calculations"
 Sørensen, Bjørn Eske
 
 European Journal of Mineralogy, 2013, 25. Jg., Nr. 1, S. 5-10
