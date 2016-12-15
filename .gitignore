@@ -1,0 +1,6 @@
+*.swp
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+todo*
+Literatur
+old
