@@ -11,34 +11,46 @@ Sørensen, Bjørn Eske
 European Journal of Mineralogy, 2013, 25. Jg., Nr. 1, S. 5-10
 ~~~
 
-The article is open access, so please read it if you're interested (http://eurjmin.geoscienceworld.org/content/25/1/5). The matlab-implementation by the original author can be found here: https://www.researchgate.net/profile/Bjorn_Sorensen/publications.
+The article is open access, so please read it, if you're interested (http://eurjmin.geoscienceworld.org/content/25/1/5). A Matlab implementation by the original author can be found here: https://www.researchgate.net/profile/Bjorn_Sorensen/publications.
 
-All credit goes to Mr. Sørensen, I'm not affiliated in any way. I just found his work, implemented it in python and made the chart with matplotlib. The goal was to reproduce the results of the article and make them accessible and usable without a matlab license.
+All credit goes to Mr. Sørensen, I'm not affiliated in any way. I just found his work, implemented it in python and made the chart with matplotlib. The goal was to reproduce the results of the article and make them accessible and usable without a matlab license. And I think, the notebook is a better way to present stuff like this.
 
 - Notebook 1/2 explains the calculation and shows how to generate the chart.
 
-![calulated_chart](./calculated_chart.png)
+![calulated_chart](./images/calculated_chart.png)
 
 - Notebook 2/2 shows some more applications.
 
-![calulated_chart](./chart2.png)
+![calulated_chart](./images/chart2_wboxes.png)
 
 # Dependencies
-- python 3
+
+required:
+
+- python 
+    - written in python 3.5 and recommended to be used with python 3.
+    - works with python 2.7 
 - jupyter notebook
 - numpy
 - matplotlib
 
-# How to install python from scratch
-The installation of python 3 with th "Anaconda" distribution installation is straight forward and platform independent:
+optional:
+
+- scipy and pil to read reference image (could be skipped)
+
+# How to install python
+The installation of python with the "Anaconda" distribution is straight forward and platform independent:
 - Download Anaconda python at https://www.continuum.io/downloads
-- If not already installed, install the necessary packages:
+- If not already installed, install the necessary packages from the command line:
 ~~~
 conda install numpy
 conda install notebook
 conda install matplotlib
+
+conda install scipy
+conda install pil
 ~~~
-- running the notebook:
+- running the notebook from the command line:
 ~~~
 jupyter notebook
 ~~~
