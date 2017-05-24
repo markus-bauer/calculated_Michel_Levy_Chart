@@ -23,9 +23,9 @@ All credit goes to Mr. Sørensen, I'm not affiliated in any way. I just found hi
 
 ![calulated_chart](./images/chart2_wboxes.png)
 
-# Dependencies
+- The calculation and plotting are summarized als standalone .py files (in the folder scripts)
 
-required:
+# Dependencies
 
 - python 
     - written in python 3.5 and recommended to be used with python 3.
@@ -33,10 +33,6 @@ required:
 - jupyter notebook
 - numpy
 - matplotlib
-
-optional:
-
-- scipy and pil to read reference image (could be skipped)
 
 # How to install python
 The installation of python with the "Anaconda" distribution is straight forward and platform independent:
@@ -47,7 +43,6 @@ conda install numpy
 conda install notebook
 conda install matplotlib
 
-conda install scipy
 conda install pil
 ~~~
 - running the notebook from the command line:
