@@ -23,7 +23,7 @@ All credit goes to Mr. Sørensen, I'm not affiliated in any way. I just found hi
 
 ![calulated_chart](./images/chart2_wboxes.png)
 
-- The calculation and plotting are summarized als standalone .py files (in the folder scripts)
+- The calculations and two plotting examples are summarized as standalone .py files (in the folder scripts).
 
 # Dependencies
 
